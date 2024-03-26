@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "514815880781",
+    "project_id": "auth-dc425",
+    "storage_bucket": "auth-dc425.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:514815880781:android:f13b17e26b2fbd0a0ab604",
+        "android_client_info": {
+          "package_name": "com.example.auth"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIF67_pUYds2PidpjPvcxcyfg_V2xr0Rs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
