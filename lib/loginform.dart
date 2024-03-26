@@ -41,9 +41,9 @@ class _LoginFormState extends State<LoginForm> {
           ),
         ),
         centerTitle: true,
-        backgroundColor: Color(0xFF4267B2), // Facebook Meta Blue Color
+        backgroundColor: Color(0xFF4267B2),
       ),
-      backgroundColor: Colors.transparent, // Transparent background
+      backgroundColor: Colors.transparent,
       body: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -107,7 +107,7 @@ class _LoginFormState extends State<LoginForm> {
                 onPressed: _showSignUpForm ? _signUp : _signIn,
                 child: Text(_showSignUpForm ? 'Sign up' : 'Login'),
                 style: ElevatedButton.styleFrom(
-                  primary: Color(0xFF4267B2), // Facebook Meta Blue Color
+                  primary: Color(0xFF4267B2),
                   onPrimary: Color.fromARGB(255, 242, 243, 244),
                 ),
               ),
@@ -123,7 +123,7 @@ class _LoginFormState extends State<LoginForm> {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    color: Color(0xFF4267B2), // Facebook Meta Blue Color
+                    color: Color(0xFF4267B2),
                   ),
                 ),
               ),
